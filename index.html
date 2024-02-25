@@ -1,18 +1,39 @@
 <html>
     <head>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
         <style>
             @font-face {
-                font-family: 'fonts/main';
-                src: "fonts/default.woff";
+                font-family: 'default';
+                src: url('fonts/default.ttf');
+                font-weight: bold;
+            }
+            .tab {
+                top: 25px;
+                width: 350px; 
+                height: 200px; 
+                background: linear-gradient(rgb(102, 4, 12), rgba(0, 0, 0, 1)); 
+                background-size: cover; 
+                border-radius: 10px; 
+                position: relative;
+                margin-right: 10px;
+                display: inline-block;
             }
         </style>
     </head>
     <body>
-        <img src="images/logo.png">
-        <div style="width: 200px; height: 200px; background: linear-gradient(rgba(126, 0, 0, 1), rgba(0, 0, 0, 1)); background-size: cover; border-radius: 10px; position: relative;">
-            <img src="images/questin.png" style="position: absolute; top: 10px; left: 10px; width: 20px; height: 20px;">
-            <h2 style="position: absolute; top: -13px; left: 40px; width: 160px; height: 20px; color: rgba(255, 255, 255, 1)">Who am i?</h1>
-        </div>
+        <center>
+            <img src="images/logo.png">
+            <section>
+                <div class="tab">
+                    <img src="images/questin.png" style="position: absolute; top: 10px; left: 10px; width: 20px; height: 20px;">
+                    <h2 style="position: absolute; top: -10px; left: 40px; width: 160px; height: 20px; color: rgba(255, 255, 255, 1)">Who am i?</h1>
+                </div>
+                <div class="tab">
+                    <img src="images/questin.png" style="position: absolute; top: 10px; left: 10px; width: 20px; height: 20px;">
+                    <h2 style="position: absolute; top: -10px; left: 40px; width: 160px; height: 20px; color: rgba(255, 255, 255, 1)">Who am i?</h1>
+                </div>
+            </section>
+        </center>
     </body>
 </html>
