@@ -38,6 +38,8 @@
                 display: inline-block;
                 box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
                 cursor: pointer;
+                transition: background-color 0.2s ease;
+                transition: outline 0.3s ease;
             }
             .gigalightreal {
                 background-color: #000000ab; /*this is green tbh i might be colorblind lol*/
@@ -49,12 +51,23 @@
                 border-radius: 20px;
                 display: inline-block;
                 box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+                transition: outline 0.3s ease;
+            }
+            .gigalightreal:hover {
+                background-color: #1a1a1a;
+                outline: 1px solid rgba(241, 241, 241, 0.349);
+            }
+            .gigahub:hover {
+                background-color: #1a1a1a;
+                outline: 1px solid rgba(241, 241, 241, 0.349);
             }
         </style>
     </head>
     <body>
         <a href="https://rsguy.redlight.li">
-            <button class="gigalightreal" href="https://github.com/ReSteGuy/my-site">
+            <button class="gigalightreal">
                 <img src="images/favicon.png" class="logoButtonImage">
                 <h2 class="logoText">Redlight.</h1>
             </button>
@@ -72,11 +85,13 @@
             <section>
                 <div class="tab">
                     <img src="images/questin.png" style="position: absolute; top: 10px; left: 10px; width: 20px; height: 20px;">
-                    <h2 style="position: absolute; top: -10px; left: 40px; width: 160px; height: 20px; color: rgba(255, 255, 255, 1)">What is this?</h1>
+                    <h2 style="position: absolute; top: -10px; left: 40px; width: 160px; height: 20px; text-align: left; color: rgba(255, 255, 255, 1)">What is this?</h2>
+                    <h3 style="position: absolute; top: 20px; left: 10px; width: 95%; height: 170px; text-align: left; color: rgba(255, 255, 255, 1)">This is Redlight. A small website I made to show of my projects and or plans!</h3>
                 </div>
                 <div class="tab">
                     <img src="images/questin.png" style="position: absolute; top: 10px; left: 10px; width: 20px; height: 20px;">
-                    <h2 style="position: absolute; top: -10px; left: 40px; width: 160px; height: 20px; color: rgba(255, 255, 255, 1)">Who am i?</h1>
+                    <h2 style="position: absolute; top: -10px; left: 40px; width: 160px; text-align: left; height: 20px; color: rgba(255, 255, 255, 1)">Who am i?</h1>
+                    <h3 style="position: absolute; top: 20px; left: 10px; width: 95%; height: 170px; text-align: left; color: rgba(255, 255, 255, 1)">I am RSGuy. A small creator on Youtube, usually making content with Friday Night Funkin'. I am trying to branch off into other creations, from Minecraft to Programming itself.</h3>
                 </div>
             </section>
         </center>
