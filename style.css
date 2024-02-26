@@ -1,5 +1,24 @@
 body {
     font-family: 'default';
-    background-image: linear-gradient(rgb(26, 2, 10), rgba(0, 0, 0, 1));
+    background-image: linear-gradient(rgb(29, 2, 10), rgb(0, 0, 0));
     backdrop-filter:blur(5px);
+}
+.logoText {
+    position: absolute; 
+    top: -2; 
+    left: 30;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'default';
+}
+.logoButtonImage {
+    position: absolute; 
+    top: 16;
+    left: 10;
+}
+.gigahubLogo {
+    position: absolute; 
+    width: 20px;
+    height: 20px;
+    left: 141px;
+    top: 15;
 }

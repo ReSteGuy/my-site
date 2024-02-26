@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>Redlight.</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
         <style>
@@ -12,22 +13,66 @@
                 top: 25px;
                 width: 350px; 
                 height: 200px; 
-                background: linear-gradient(rgb(102, 4, 12), rgba(0, 0, 0, 1)); 
+                background: rgba(31, 31, 31, 0.322); 
                 background-size: cover; 
                 border-radius: 10px; 
                 position: relative;
+                display: inline-block;
+                outline: 1px solid rgba(241, 241, 241, 0.349);
+            }
+            .textLogo {
+                color: white;
+                position: relative;
                 margin-right: 10px;
                 display: inline-block;
+                top: -25;
+                right: 30;
+            }
+            .gigahub {
+                background-color: #000000ab; /*this is green tbh i might be colorblind lol*/
+                border: none;
+                color: white;
+                padding: 20px;
+                margin: 4px 2px;
+                border-radius: 50%;
+                display: inline-block;
+                box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+                cursor: pointer;
+            }
+            .gigalightreal {
+                background-color: #000000ab; /*this is green tbh i might be colorblind lol*/
+                border: none;
+                color: white;
+                padding: 20px;
+                padding-left: 100px;
+                margin: 4px 2px;
+                border-radius: 20px;
+                display: inline-block;
+                box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
             }
         </style>
     </head>
     <body>
+        <a href="https://rsguy.redlight.li">
+            <button class="gigalightreal" href="https://github.com/ReSteGuy/my-site">
+                <img src="images/favicon.png" class="logoButtonImage">
+                <h2 class="logoText">Redlight.</h1>
+            </button>
+        </a>
+        <a href="https://github.com/ReSteGuy/my-site">
+            <button class="gigahub"> 
+                <img src="images/github.png" class="gigahubLogo">
+            </button>
+        </a>
         <center>
-            <img src="images/logo.png">
+            <section>
+                <img src="images/logo.png" style="top: 10;">
+                <h1 class="textLogo">Redlight.</h1>
+            </section>
             <section>
                 <div class="tab">
                     <img src="images/questin.png" style="position: absolute; top: 10px; left: 10px; width: 20px; height: 20px;">
-                    <h2 style="position: absolute; top: -10px; left: 40px; width: 160px; height: 20px; color: rgba(255, 255, 255, 1)">Who am i?</h1>
+                    <h2 style="position: absolute; top: -10px; left: 40px; width: 160px; height: 20px; color: rgba(255, 255, 255, 1)">What is this?</h1>
                 </div>
                 <div class="tab">
                     <img src="images/questin.png" style="position: absolute; top: 10px; left: 10px; width: 20px; height: 20px;">
