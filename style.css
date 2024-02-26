@@ -6,7 +6,7 @@ body {
 .logoText {
     position: absolute; 
     top: -2; 
-    left: 30;
+    left: 35;
     color: rgba(255, 255, 255, 1);
     font-family: 'default';
 }
@@ -15,10 +15,19 @@ body {
     top: 16;
     left: 10;
 }
-.gigahubLogo {
-    position: absolute; 
-    width: 20px;
-    height: 20px;
-    left: 141px;
-    top: 15;
+a:active {
+    text-decoration: none;
+    color: transparent; 
+}
+a:hover {
+    text-decoration: none;
+    color: transparent; 
+}
+a:focus {
+    text-decoration: none;
+    color: transparent; 
+}
+a:visited {
+    text-decoration: none;
+    color: transparent; 
 }
